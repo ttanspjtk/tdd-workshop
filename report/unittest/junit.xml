@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="25" failures="0" errors="0" time="4.967">
+  <testsuite name="Circular Buffer" errors="0" failures="0" skipped="0" timestamp="2023-03-07T09:20:42" time="3.227" tests="5">
+    <testcase classname="Circular Buffer Should get 1 when put 1" name="Circular Buffer Should get 1 when put 1" time="0.002">
+    </testcase>
+    <testcase classname="Circular Buffer Should get 1,2 when put 1,2 Should get 1" name="Circular Buffer Should get 1,2 when put 1,2 Should get 1" time="0">
+    </testcase>
+    <testcase classname="Circular Buffer Should get 1,2 when put 1,2 Should get 2" name="Circular Buffer Should get 1,2 when put 1,2 Should get 2" time="0">
+    </testcase>
+    <testcase classname="Circular Buffer ถ้าหากมีการใส่ข้อมูลเกิน(overflow) ตัวอ่านจะขยับไป 1 ตำแหน่ง" name="Circular Buffer ถ้าหากมีการใส่ข้อมูลเกิน(overflow) ตัวอ่านจะขยับไป 1 ตำแหน่ง" time="0">
+    </testcase>
+    <testcase classname="Circular Buffer ควรได้ 2 ถ้า buffer ไม่เต็ม แต่ overflow" name="Circular Buffer ควรได้ 2 ถ้า buffer ไม่เต็ม แต่ overflow" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="FizzBuzzEach" errors="0" failures="0" skipped="0" timestamp="2023-03-07T09:20:42" time="3.222" tests="15">
+    <testcase classname="FizzBuzzEach .should say 1 when given 1" name="FizzBuzzEach .should say 1 when given 1" time="0.002">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 2 when given 2" name="FizzBuzzEach .should say 2 when given 2" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 3 when given Fizz" name="FizzBuzzEach .should say 3 when given Fizz" time="0">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 4 when given 4" name="FizzBuzzEach .should say 4 when given 4" time="0">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 5 when given Buzz" name="FizzBuzzEach .should say 5 when given Buzz" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 6 when given Fizz" name="FizzBuzzEach .should say 6 when given Fizz" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 7 when given 7" name="FizzBuzzEach .should say 7 when given 7" time="0">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 8 when given 8" name="FizzBuzzEach .should say 8 when given 8" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 9 when given Fizz" name="FizzBuzzEach .should say 9 when given Fizz" time="0">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 10 when given Buzz" name="FizzBuzzEach .should say 10 when given Buzz" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 11 when given 11" name="FizzBuzzEach .should say 11 when given 11" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 12 when given Fizz" name="FizzBuzzEach .should say 12 when given Fizz" time="0">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 13 when given 13" name="FizzBuzzEach .should say 13 when given 13" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 14 when given 14" name="FizzBuzzEach .should say 14 when given 14" time="0">
+    </testcase>
+    <testcase classname="FizzBuzzEach .should say 15 when given FizzBuzz" name="FizzBuzzEach .should say 15 when given FizzBuzz" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="FizzBuzz" errors="0" failures="0" skipped="1" timestamp="2023-03-07T09:20:42" time="3.246" tests="5">
+    <testcase classname="FizzBuzz Should return 1 when input 1" name="FizzBuzz Should return 1 when input 1" time="0.002">
+    </testcase>
+    <testcase classname="FizzBuzz Should return Fizz when หาร 3 ลงตัว" name="FizzBuzz Should return Fizz when หาร 3 ลงตัว" time="0">
+    </testcase>
+    <testcase classname="FizzBuzz Should return Buzz when หาร 5 ลงตัว" name="FizzBuzz Should return Buzz when หาร 5 ลงตัว" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzz Should return Fizz when หาร 3 และ 5 ลงตัว" name="FizzBuzz Should return Fizz when หาร 3 และ 5 ลงตัว" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzz " name="FizzBuzz " time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>
